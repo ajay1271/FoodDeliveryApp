@@ -6,7 +6,10 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
+@Table(name  = "coupon")
 public class CouponsEntity implements Serializable {
+
+
 
 
     @Id
